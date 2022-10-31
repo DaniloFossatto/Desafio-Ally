@@ -1,0 +1,28 @@
+body{
+    background-color: #DCDCDC;
+}
+.Wrap{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-items: center;
+    height:100vh;
+    
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:500px;
+    width: 100vw;
+}
+#btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 0.5px;
+}
+#btn:hover{
+    background-color: 	#D3D3D3;
+}
